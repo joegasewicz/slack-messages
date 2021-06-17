@@ -9,7 +9,7 @@ pip install slack-messages
 ## Examples
 Send a message
 ```bash
-from slack_messages import SlackMessages, ErrorPostingMessage, ErrorFetchingChannels
+from slack_messages import SlackMessages
 
 slack = SlackMessages("<Access Token>")
 res = slack.send_message(channel_name="my-chan", message="Hello!")
