@@ -9,7 +9,8 @@ setup(
     name="slack-messages",
     version="0.0.1",
     description="Slack messages made easy. Send slack messages to channels from you backend api etc.",
-    py_modules=["password_mixin"],
+    packages=["slack_messages"],
+    py_modules=["slack_messages"],
     install_requires=[
         "requests=*",
     ],
