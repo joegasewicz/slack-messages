@@ -12,7 +12,7 @@ setup(
     packages=["slack_messages"],
     py_modules=["slack_messages"],
     install_requires=[
-        "requests=*",
+        "requests",
     ],
     classifiers=[
         "Programming Language :: Python :: 3.7",
