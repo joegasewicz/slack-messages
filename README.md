@@ -3,7 +3,7 @@ Slack messages made easy. Send slack messages to channels from you backend api e
 
 ## install
 ```bash
-pip install slask-messages
+pip install slack-messages
 ```
 
 ## Examples
